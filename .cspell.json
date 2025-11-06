@@ -1,0 +1,8 @@
+{
+    "ignorePaths": [
+        "**/.gitignore"
+    ],
+    "words": [
+        "daisyui"
+    ]
+}
