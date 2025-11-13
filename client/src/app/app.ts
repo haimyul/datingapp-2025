@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, inject, OnInit, signal } from '@angular/core';
 import { lastValueFrom } from 'rxjs';
+
 // import { RouterOutlet } from '@angular/router';
 
 @Component({
@@ -30,7 +31,7 @@ export class App implements OnInit {
 
     // option II
     async ngOnInit() {
-        this.members.set(await this.getMembers())
+        this.members.set(await this.getMembers());
     }
 
     async getMembers() {
