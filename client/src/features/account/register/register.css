@@ -1,0 +1,4 @@
+/* Option II: give full width to the component with css :host */
+:host {
+    width: 100%;
+}

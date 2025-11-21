@@ -1,4 +1,9 @@
-<div class="card bg-base-100 w-1/2 mx-auto p-10 mt-10 shadow-xl">
+<app-nav />
+
+<app-home />
+
+@if (false) {
+<div class="card bg-base-100 w-1/2 mx-auto p-10 mt-24 shadow-xl">
     <div class="text-3xl text-blue-500">{{title}}</div>
 
     <ul class="list">
@@ -13,10 +18,9 @@
                 alt="User Avatar"
                 class="size-12 rounded-box"
             />
-            <div>
-                {{member.displayName}}
-            </div>
+            <div>{{member.displayName}}</div>
         </li>
         }
     </ul>
 </div>
+}
